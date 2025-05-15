@@ -24,8 +24,8 @@ export default function VirtualHug() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-100 to-pink-300 flex flex-col items-center justify-center p-6">
-{/*       {/* Background Music */}
-      <audio src="/music.mp3" autoPlay loop /> */}
+      {/* Background Music */}
+      <audio src="/music.mp3" autoPlay loop />
 
       <div className="p-6 rounded-2xl shadow-xl max-w-md text-center bg-white">
         {stage === 'idle' && (
