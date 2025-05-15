@@ -1,5 +1,13 @@
-@import "tailwindcss";
+/* 1. Tailwind base styles (resets, etc) */
+@tailwind base;
 
+/* 2. Tailwind component classes (buttons, cards, etc) */
+@tailwind components;
+
+/* 3. Tailwind utility classes (margins, colors, animations, etc) */
+@tailwind utilities;
+
+/* ——— Your existing custom CSS below ——— */
 :root {
   --background: #ffffff;
   --foreground: #171717;
